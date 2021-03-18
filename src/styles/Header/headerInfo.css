@@ -1,0 +1,31 @@
+.container__header-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(70deg, black, white);
+    padding: 10px;
+}
+
+.email-header-info {
+    color: #000;
+}
+
+@media screen and (max-width: 800px){
+    .email-header-info{
+        font-size: .8em;
+    }
+
+    .phone-number-header-info{
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .email-header-info{
+        font-size: .5em;
+    }
+
+    .phone-number-header-info{
+        font-size: .5em;
+    }
+}
